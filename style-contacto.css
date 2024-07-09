@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 2rem 0;
+}
+.title{
+    margin-top: 60px;
+    font-size: 1.75rem;
+    padding-bottom: 30px;
+    border-bottom: 1.5px solid hsl(0, 0%, 90%);;
+}
+.title span{
+    color: #037bc0;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    font-family: "Raleway", sans-serif;
+}
+
+.contenedor{
+    width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title2{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 5rem;
+}
+
+li{
+    list-style: none;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+
+.formulario{
+    max-width: 40rem;
+    margin: 0 auto;
+    font-family: "Raleway", sans-serif;
+}
+.formulario fieldset{
+    border: 1px solid black;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+.formulario legend{
+    background-color: #005485;
+    width: 90%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+.campo{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.campo label{
+    flex-basis: 10rem;
+}
+.campo input:not([type='radio']), .campo textarea, .campo select {
+    flex: 1;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+}
+.formulario button {
+    width: auto;
+}
+.btn {
+    background-color: #8cbc00;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    text-align: center;
+    border: none;
+    width: 100%;
+    font-size: 15px;
+}
+.contenedor-footer{
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #e1e1e1;
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+.contenedor-footer div{
+    width: 466.66px;
+    margin: 10px;
+}
+
+.contenedor-footer h3{
+    font-size: 2rem;
+}
+
+.contenedor-footer li {
+    font-family: "Raleway", sans-serif;
+    margin: 10px auto;
+}

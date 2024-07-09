@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style-contacto.css">
     <title>Contacto</title>
 </head>
 <body>
-    <section>
-        <h1>Tienda Muebles</h1>
-        <nav>
-            <ul>
+    <header>
+        <div class="title">
+            <h1>Tienda <span>Muebles</span></h1>
+        </div>
+        <nav class="contenedor">
+            <ul class="items">
                 <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./nosotros.html">Nosotros</a></li>
                 <li><a href="./tienda.html">Tienda</a></li>
@@ -19,109 +22,103 @@
                 <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </nav>
-    </section>
-    <main>
-            <h2>Contacto</h2>
-            <div>
-                <form action="">
-                    <fieldset>
-                        <legend>TUS DATOS</legend>
-                    <div>
+    </header>
+    <main class="contenedor">
+        <h2 class="title2">Contacto</h2>
+            <form action="" class="formulario">
+                <fieldset>
+                    <legend>TUS DATOS</legend>
+                    <div class="campo">
                         <label for="ImputName">Nombre:</label>
                         <input type="text" id="ImputName" autocomplete="off" placeholder="Tu Nombre">
                     </div>
-                    <div>
+                    <div class="campo">
                         <label for="ImputAsunto">Asunto:</label>
                         <input type="text" id="ImputAsunto" autocomplete="off" placeholder="Tu Asunto">
                     </div>
-                    <div>
+                    <div class="campo">
                         <label for="ImputEmail">Email:</label>
                         <input type="email" id="ImputEmail" autocomplete="off" placeholder="Tu Email">
                     </div>
-                    <div>
+                    <div class="campo">
                         <label for="ImputTel">Telefono:</label>
                         <input type="tel" id="ImputTel" autocomplete="off" placeholder="Tu Telefono">
                     </div>
-                    <div>
+                    <div class="campo">
                         <label for="mensaje">Mensaje:</label><br>
                         <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
                     </div>
-                    </fieldset>
-                </form>
-            </div>
-           <div>
-            <form action="">
+                </fieldset>
                 <fieldset>
                     <legend>Pais</legend>
-                    <label for="selectPais">Pais</label>
-                    <select name="selectPais">
-                        <option value="">-- Seleccione --</option>
-                        <option value="mx">Mexico</option>
-                        <option value="pe">Peru</option>
-                        <option value="co">Colombia</option>
-                        <option value="ar">Argentina</option>
-                        <option value="es">España</option>
-                        <option value="cl">Chile</option>
-                      </select>
+                    <div class="campo">
+                        <label for="selectPais">Pais</label>
+                        <select name="selectPais">
+                            <option value="">-- Seleccione --</option>
+                            <option value="mx">Mexico</option>
+                            <option value="pe">Peru</option>
+                            <option value="co">Colombia</option>
+                            <option value="ar">Argentina</option>
+                            <option value="es">España</option>
+                            <option value="cl">Chile</option>
+                          </select>
+                    </div>
                 </fieldset>
-            </form>
-           </div>
-           <div>
-            <form action="">
                 <fieldset>
                     <legend>INFORMACIÓN EXTRA</legend>
-                    <label for="cliente">Cliente</label>
-                    <input type="radio" id="cliente" name="tipo" value="cliente"><br>
-                    
-                    <label for="proveedor">Proveedor</label>
-                    <input type="radio" id="proveedor" name="tipo" value="proveedor"><br><br>
-                    
-                    <label for="categoria">Categoría de Interés:</label><br>
-                    <select id="categoria" name="categoria">
-                        <option value="">-- Seleccione --</option>
-                        <option value="cocina">Cocina</option>
-                        <option value="exterior">Exterior</option>
-                        <option value="recamaras">Recámaras</option>
-                        <option value="oficina">Oficina</option>
-                        <option value="television">Televisión</option>
-                    </select>
+                    <div class="campo">
+                        <label for="cliente">Cliente</label>
+                        <input type="radio" id="cliente" name="tipo" value="cliente">
+                    </div>
+                    <div class="campo">
+                        <label for="proveedor">Proveedor</label>
+                        <input type="radio" id="proveedor" name="tipo" value="proveedor">
+                    </div>
+                    <div class="campo">
+                        <label for="categoria">Categoría de Interés:</label><br>
+                        <select id="categoria" name="categoria">
+                            <option value="">-- Seleccione --</option>
+                            <option value="cocina">Cocina</option>
+                            <option value="exterior">Exterior</option>
+                            <option value="recamaras">Recámaras</option>
+                            <option value="oficina">Oficina</option>
+                            <option value="television">Televisión</option>
+                        </select>
+                    </div>
                 </fieldset>
-    
+                <button class="btn" type="submit">ENVIAR FORMULARIO</button>
             </form>
-           </div>
-          <div>
-            <button>ENVIAR FORMULARIO</button>
-          </div>
     </main>
+    <footer class="contenedor contenedor-footer">
+        <div>
+            <h3>Categorías</h3>
+            <ul>
+                <li><a href="#">Cocina</a></li>
+                <li><a href="#">Oficina</a></li>
+                <li><a href="#">Jardin</a></li>
+                <li><a href="#">Cochera</a></li>
+                <li><a href="#">Dormitorio</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sobre Nosotros</h3>
+            <ul>
+                <li><a href="#">Nuestra Historia</a></li>
+                <li><a href="#">Mision, Vision y Valores</a></li>
+                <li><a href="#">Carreras</a></li>
+                <li><a href="#">Politica de Privacidad</a></li>
+                <li><a href="#">Terminos del Servicio</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Soporte</h3>
+            <ul>
+                <li><a href="#">Preguntas Frecuentes</a></li>
+                <li><a href="#">Ayuda en Linea</a></li>
+                <li><a href="#">Confianza y Seguridad</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
-<footer>
-    <section>
-        <header><h3>Categorías</h3></header>
-        <ul>
-            <li><a href="#">Cocina</a></li>
-            <li><a href="#">Oficina</a></li>
-            <li><a href="#">Jardin</a></li>
-            <li><a href="#">Cochera</a></li>
-            <li><a href="#">Dormitorio</a></li>
-        </ul>
-    </section>
-    <section>
-        <header><h3>Sobre Nosotros</h3></header>
-        <ul>
-            <li><a href="#">Nuestra Historia</a></li>
-            <li><a href="#">Mision, Vision y Valores</a></li>
-            <li><a href="#">Carreras</a></li>
-            <li><a href="#">Politica de Privacidad</a></li>
-            <li><a href="#">Terminos del Servicio</a></li>
-        </ul>
-    </section>
-    <section>
-        <header><h3>Soporte</h3></header>
-        <ul>
-            <li><a href="#">Preguntas Frecuentes</a></li>
-            <li><a href="#">Ayuda en Linea</a></li>
-            <li><a href="#">Confianza y Seguridad</a></li>
-        </ul>
-    </section>
-</footer>
+
 </html>

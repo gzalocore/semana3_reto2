@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 2rem 0;
+}
+.title{
+    margin-top: 60px;
+    font-size: 1.75rem;
+    padding-bottom: 30px;
+    border-bottom: 1.5px solid hsl(0, 0%, 90%);;
+}
+.title span{
+    color: #037bc0;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    font-family: "Raleway", sans-serif;
+}
+
+.contenedor{
+    width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title2{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 5rem;
+}
+
+li{
+    list-style: none;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+
+.contenedor-blog{
+    display: flex;
+    justify-content: space-around;
+
+}
+.contenedor-blog h3{
+    font-size: 2.5rem;
+}
+
+.contenedor-blog img{
+    width: 700px;
+}
+
+.contenedor-texto{
+    font-family: "Raleway", sans-serif;
+    width: 700px;
+    padding: 10px;
+   
+}
+.contenedor-texto p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contenedor-texto div{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.contenedor-texto span{
+    color: #037bc0;
+}
+
+.entradas-blog li {
+    font-family: "Raleway", sans-serif;
+    margin: 10px auto;
+}
+.entradas-blog h3{
+font-size: 2rem;
+}
+
+button{
+    background-color: #8cbc00;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    border: none;
+    width: 40%;
+}
+.contenedor-footer{
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #e1e1e1;
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+.contenedor-footer div{
+    width: 466.66px;
+    margin: 10px;
+}
+
+.contenedor-footer h3{
+    font-size: 2rem;
+}
+
+.contenedor-footer li {
+    font-family: "Raleway", sans-serif;
+    margin: 10px auto;
+}

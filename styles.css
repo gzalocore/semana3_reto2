@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 2rem 0;
+}
+
+.title{
+    margin-top: 60px;
+    font-size: 1.75rem;
+    padding-bottom: 30px;
+    border-bottom: 1.5px solid hsl(0, 0%, 90%);;
+}
+
+.title span{
+    color: #037bc0;;
+}
+.main-imagen{
+    background-image: url(./img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 55rem;
+}
+
+li{
+    list-style: none;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+
+.contenedor{
+    width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    font-family: "Raleway", sans-serif;
+}
+
+.contenedor-categoria{
+    text-align: center;
+    padding: 5rem 0;
+    width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contenedor-categoria h2{
+    font-size: 3rem;
+}
+
+.items-categoria{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+}
+.items-categoria a {
+    text-align: center;
+    display: block;
+    padding: 2rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+}
+
+.contenedor-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contenedor-nosotros h2{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+.img-nosotros{
+    background-image: url(./img/nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.texto-nosotros{
+    display: flex;
+    color: #fff;
+    background-color: #037bc0;
+    padding: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+
+}
+.texto-nosotros2{
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    padding: 2rem;
+    font-size: 18px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-productos{
+    width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 5rem;
+}
+.subcontenedor-productos{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contenedor-productos h2{
+    font-size: 3rem;
+}
+.items-productos{
+    background-color: #037bc0;
+    color: #fff;
+    margin: 10px;
+}
+
+.imagen-1{
+    background-image: url(./img/producto1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.imagenes-2{
+    width: 680px;
+}
+.imagenes-3{
+    width: 446.66px;
+}
+
+.texto-producto{
+    font-family: "Raleway", sans-serif;
+    padding: 2rem;
+    margin: 0 0 0.5rem 0;
+}
+.texto-producto h3{
+    font-size: 2rem;
+}
+
+.precio{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.btn-producto{
+    background-color: #8cbc00;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    border: none;
+    width: 100%;
+}
+
+.title2{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 5rem;
+}
+
+.grid-imagenes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.grid-imagenes img{
+    width: 450px;
+    height: 450px;
+}
+.contenedor-footer{
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #e1e1e1;
+    margin-top: 5rem;
+    padding-top: 5rem;
+
+}
+.contenedor-footer div{
+    width: 466.66px;
+    margin: 10px;
+}
+
+.contenedor-footer h3{
+    font-size: 2rem;
+}
+
+.contenedor-footer li {
+    font-family: "Raleway", sans-serif;
+    margin: 10px auto;
+}
